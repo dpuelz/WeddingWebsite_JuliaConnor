@@ -179,6 +179,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ font-size: 2em; }
+}
+
 @media print {
   * {
     text-shadow: none !important;
