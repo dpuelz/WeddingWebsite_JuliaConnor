@@ -1,4 +1,16 @@
 /* Space out content a bit */
+
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ font-size: 2em; }
+}
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
