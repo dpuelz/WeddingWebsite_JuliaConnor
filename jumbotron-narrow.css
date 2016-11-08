@@ -60,7 +60,7 @@ body {
   margin-top: 28px;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2200px) {
 
     /* Remove the padding we set earlier */
   .header,
