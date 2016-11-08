@@ -60,16 +60,24 @@ body {
   margin-top: 28px;
 }
 
-@media screen and (max-width: 1202px) {
+@media screen and (min-width: 786px) {
 
-  #container, #header, #content, #footer {
-    float: none;
-    width: auto;
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
   }
- #subtitle, #share, #slider, #sidebar{
-    display:none;
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
   }
-  p{ font-size: 2em; }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
 }
 
 h1 {
